@@ -1,0 +1,10 @@
+<section class="chat-box-view">
+  <mat-card *ngFor="let message of messages$ | async;">
+    <mat-card-title>
+      Od: {{message.name}}
+    </mat-card-title>
+    <mat-card-content>
+      Treść: {{message.text}}
+    </mat-card-content>
+  </mat-card>
+</section>

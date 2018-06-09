@@ -1,0 +1,17 @@
+.message {
+  width: 100%;
+  padding: 0px 10px;
+  list-style: none;
+}
+
+.chat-box-list {
+  width: 100%;
+  -webkit-padding-start: 0;
+}
+
+.chat-box-view {
+  width: 100%;
+  height: calc(100vh - 60px);
+  overflow-y: auto;
+  overflow-x: hidden;
+}

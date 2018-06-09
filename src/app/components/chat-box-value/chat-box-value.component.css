@@ -1,0 +1,22 @@
+.chat-box-value {
+  position: relative;
+  height: 60px;
+}
+
+.chat-box-value__form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.chat-box-value__input {
+  width: 100%;
+  padding: 20px;
+}
+
+.chat-box-value__submit-button {
+  max-width: 120px;
+  width: 100%;
+  padding: 20px;
+}

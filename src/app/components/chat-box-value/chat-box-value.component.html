@@ -1,0 +1,8 @@
+<section class="chat-box-value">
+  <form class="chat-box-value__form" action="" [formGroup]="newMessageForm" novalidate (ngSubmit)="onSubmit(newMessageForm.value.message)">
+    <input class="chat-box-value__input" type="text" name="message" formControlName="message" id="">
+
+    <button class="chat-box-value__submit-button" [disabled]="newMessageForm.invalid" type="submit">Send message</button>
+  </form>
+
+</section>
